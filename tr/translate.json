@@ -1,0 +1,5 @@
+{
+  "Translate": "Tercüme et",
+  "Create": "Oluştur",
+  "When you create a language here it will be created in {{ langPath }}. As long as the language is active, missing translations will be added to the translation files automatically as you come across them inside Vortex. When you edit those files, changes will become visible immediately.": "Burada bir dil oluşturduğunuzda, {{ langPath }} içinde oluşturulacaktır. Dil aktif olduğu sürece, eksik çeviriler Vortex'te karşılaştığınızda çeviri dosyalarına otomatik olarak eklenecektir. Bu dosyaları düzenlediğinizde, değişiklikler hemen görünür hale gelir."
+}

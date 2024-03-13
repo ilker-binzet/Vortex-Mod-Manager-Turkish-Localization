@@ -1,0 +1,15 @@
+{
+  "Use a set of recommended defaults based on the common combinations of games this feature would be useful for.": "Bu özelliğin kullanışlı olacağı yaygın oyun kombinasyonlarına dayalı önerilen varsayılanları kullanın.",
+  "Download Game Assignments": "Oyun Görevlerini İndir",
+  "Download Game Assignment": "Oyun Görevi İndir",
+  "When Vortex adds a new download from Nexus Mods, these settings will be used to decide which games to assign as compatible to each archive.This will prevent Vortex from reminding you that the mod was intended for a different game during installation and ensure it correctly shows up in the downloads tab while your preferred game is active.": "Vortex, Nexus Mods'tan yeni bir indirme eklediğinde, bu ayarlar her arşivin hangi oyunlara uygun olduğuna karar vermek için kullanılacaktır. Bu, Vortex'in kurulum sırasında modun farklı bir oyun için tasarlandığını hatırlatmasını önleyecek ve tercih ettiğiniz oyun etkinken indirmeler sekmesinde doğru bir şekilde görünmesini sağlayacaktır.",
+  "Add a new row to automatically mark downloaded archives for the game in the first column as compatible with game in the second column.": "İndirilen arşivleri otomatik olarak ilk sütundaki oyun için uyumlu olarak işaretlemek için yeni bir satır ekleyin.",
+  "Downloads for": "İndirmeler",
+  "are compatible with": "ile uyumludur",
+  "Select game": "Oyun seç",
+  "Add new rule": "Yeni kural ekle",
+  "by default": "varsayılan olarak",
+  "Rule created {{ruleAdded}}": "Kural oluşturuldu {{ruleAdded}}",
+  "Delete rule": "Kuralı sil",
+  "Use recommended": "Önerileni kullan"
+}

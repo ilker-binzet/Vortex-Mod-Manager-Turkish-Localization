@@ -1,0 +1,13 @@
+{
+  "You don't have any installed mods": "Yüklü modunuz yok",
+  "You can also add mods to a collection from the mods screen: Right-click > Add to Collection": "Ayrıca modları mod ekranından bir koleksiyona ekleyebilirsiniz: Sağ tık > Koleksiyona Ekle",
+  "Mods need to be in an installed state in order to add them to a collection. If the mod you want to add is not in this list, make sure it's installed.": "Modları bir koleksiyona eklemek için yüklü bir durumda olmaları gerekir. Eklemek istediğiniz mod bu listede değilse, yüklü olduğundan emin olun.",
+  "Close": "Kapat",
+  "Add Selection": "Seçimi Ekle",
+  "Downvote Success Rating": "Downvote Başarı Puanı",
+  "Sorry to hear that the collection \"undefined\" isn't working for you. Here are some steps that could help:": "Koleksiyonunuz \"undefined\" çalışmadığı için üzgünüm. İşte size yardımcı olabilecek bazı adımlar:",
+  "Success ratings help others know if a collection installs and runs correctly. They are not a vote on whether you liked the collection or not.": "Başarı puanları, diğerlerinin bir koleksiyonun doğru bir şekilde yüklenip çalışıp çalışmadığını bilmesine yardımcı olur. Beğenip beğenmediğinize dair bir oylama değildir.",
+  "I have tried the above steps and confirm this collection does not work.": "Yukarıdaki adımları denedim ve bu koleksiyonun çalışmadığını onaylıyorum.",
+  "Cancel": "İptal",
+  "Submit": "Gönder"
+}
