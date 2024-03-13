@@ -2,6 +2,8 @@
 
 Vortex Mod Manager Türkçe Çeviri Paketi README
 
+https://www.nexusmods.com/site/mods/811
+
 Kurulum Talimatları:
 --------------------
 
