@@ -1,0 +1,5 @@
+{
+  "{{ count }} conflicting file": "{{ count }} çakışan dosya",
+  "{{ count }} conflicting file_plural": "{{ count }} çakışan dosya",
+  "Category Name": "Kategori Adı"
+}

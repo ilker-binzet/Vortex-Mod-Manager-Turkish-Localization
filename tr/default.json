@@ -1,5 +1,9 @@
 {
   "Select directories to scan": "Taranacak dizinleri seçin",
   "Cancel": "İptal",
-  "Scan": "Tara"
+  "Scan": "Tara",
+  "Description": "Açıklama",
+  "If your games take very long to save when Vortex is running, try disabling this.": "Oyunlarınız Vortex çalışırken çok uzun süre kaydediliyorsa, bunu devre dışı bırakmayı deneyin.",
+  "Monitor Savegame directory for changes": "Değişiklikleri izlemek için Kayıt Oyunu dizinini izle",
+  "Savegame folder monitoring": "Kayıt Oyunu klasörü izleme"
 }
