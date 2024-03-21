@@ -1,0 +1,9 @@
+{
+  "Refresh User Info": "Kullanıcı Bilgilerini Yenile",
+  "Open Nexus Page": "Nexus Sayfasını Aç",
+  "If you've downloaded this mod from a different game section than you're managing, set this to the game the mod was intended for.\n\nSo if you manually downloaded this mod from the Skyrim section and installed it for Skyrim Special Edition, set this to \"Skyrim\".\n\nOtherwise, please don't change this. It is required to be correct so Vortex can retrieve the correct mod information (including update info).": "Bu modu yönettiğiniz oyun bölümünden farklı bir bölümden indirdiyseniz, bu modun hangi oyun için tasarlandığını belirtin.\n\nYani, bu modu Skyrim bölümünden manuel olarak indirdiyseniz ve Skyrim Special Edition için yüklediyseniz, bunu \"Skyrim\" olarak ayarlayın.\n\nAksi takdirde, lütfen bunu değiştirmeyin. Doğru olması gerektiği için Vortex'in doğru mod bilgilerini (güncelleme bilgileri dahil) alabilmesi gereklidir.",
+  "Retrieve categories": "Kategorileri al",
+  "Track": "Takip et",
+  "Untrack": "Takibi bırak",
+  "Fix missing IDs": "Eksik kimlikleri düzelt"
+}
