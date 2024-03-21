@@ -1,5 +1,13 @@
 {
   "{{ count }} conflicting file": "{{ count }} çakışan dosya",
   "{{ count }} conflicting file_plural": "{{ count }} çakışan dosya",
-  "Category Name": "Kategori Adı"
+  "Category Name": "Kategori Adı",
+  "{{count}} mod conflicts": "{{count}} mod çakışmaları",
+  "{{count}} mod conflicts_plural": "{{count}} mod çakışmaları",
+  "{{count}} conflicting mod": "{{count}} çakışmış mod",
+  "{{count}} conflicting mod_plural": "{{count}} çakışmış mod",
+  "{{count}} conflicting rule": "{{count}} çakışmış kural",
+  "{{count}} conflicting rule_plural": "{{count}} çakışmış kural",
+  "{{count}} conflicting file": "{{count}} çakışmış dosya",
+  "{{count}} conflicting file_plural": "{{count}} çakışmış dosya"
 }
