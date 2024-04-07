@@ -52,5 +52,17 @@
   "{{count}} deleted reference_plural": "{{count}} silinmiş referans",
   "{{tool}} found {{things}}.": "{{tool}}, {{things}} buldu.",
   "Incompatible": "Uyumsuz",
-  "Tags": "Etiketler"
+  "Tags": "Etiketler",
+  "Plugins": "Eklentiler",
+  "Enable automatic load order sorting powered by LOOT": "LOOT tarafından desteklenen otomatik yükleme sırası sıralamasını etkinleştir",
+  "Sort your load order using LOOT": "Yükleme sıranızı LOOT'u kullanarak sıralayın",
+  "Manage Groups": "Grupları Yönet",
+  "Loads Archive": "Arşiv Yükler",
+  "Native": "Bütünleşik",
+  "Dirty": "Gereksiz",
+  "Don't clean": "Silinmemeli",
+  "Warnings": "Uyarılar",
+  "- Plugin has missing masters": "- Plugin has missing masters",
+  "- Eklentinin eksik ana dosyaları var": "- Eklentinin eksik ana dosyaları var",
+  "Manual Set Location": "Manuel Konum Ayarla"
 }

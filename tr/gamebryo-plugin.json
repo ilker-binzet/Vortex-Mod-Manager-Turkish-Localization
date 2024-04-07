@@ -21,5 +21,6 @@
   "{{count}} deleted navmesh": "{{count}} silinmiş navmesh",
   "{{count}} deleted navmesh_plural": "{{ count }} silinmiş navmesh",
   "{{count}} deleted reference": "{{count}} silinmiş referans",
-  "{{count}} deleted reference_plural": "{{ count }} silinmiş referans"
+  "{{count}} deleted reference_plural": "{{ count }} silinmiş referans",
+  "Manual Set Location": "Manuel Konum Ayarla"
 }
