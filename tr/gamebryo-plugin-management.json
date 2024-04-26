@@ -62,7 +62,8 @@
   "Dirty": "Gereksiz",
   "Don't clean": "Silinmemeli",
   "Warnings": "Uyarılar",
-  "- Plugin has missing masters": "- Plugin has missing masters",
+  "- Plugin has missing masters": "- Eklentinin eksik ana dosyaları var",
   "- Eklentinin eksik ana dosyaları var": "- Eklentinin eksik ana dosyaları var",
-  "Manual Set Location": "Manuel Konum Ayarla"
+  "Manual Set Location": "Manuel Konum Ayarla",
+  "Disable automatic load order sorting powered by LOOT": "LOOT tarafından desteklenen otomatik yükleme sırası sıralamasını devre dışı bırak"
 }

@@ -1,4 +1,7 @@
 {
+  "- LOOT warnings": "- LOOT uyarıları",
+  "- LOOT warnings\n- Plugin has missing masters": "- LOOT uyarıları\n- Eklenti eksik masterlara sahip",
+  "- Plugin has missing masters": "- Eklenti eksik masterlara sahip",
   "Autosort Disabled": "Otomatik Sıralama Devre Dışı",
   "Autosort Enabled": "Otomatik Sıralama Etkin",
   "Drag to another plugin to set userlist rule": "Kullanıcı listesi kuralını ayarlamak için başka bir eklentiye sürükleyin",
@@ -8,6 +11,7 @@
   "LOOT reported a cyclic interaction between rules.<br />In the simplest case this is something like [i]\"A needs to load after B\"[/i] and [i]\"B needs to load after A\"[/i] but it can be more complicated, involving multiple plugins and groups and [i]their[/i] order.<br />": "LOOT, kurallar arasında döngüsel bir etkileşim bildirdi.<br />En basit durumda, bu [i]\"A, B'den sonra yüklenmeli\"[/i] ve [i]\"B, A'dan sonra yüklenmeli\"[/i] gibi bir şeydir, ancak daha karmaşık olabilir, birden fazla eklenti ve grup ve [i]onların[/i] sırasını içerebilir.<br />",
   "Loaded by the engine, can't be configured": "Motor tarafından yüklendi, yapılandırılamaz",
   "Loads after:": "Şunun ardından yüklenir:",
+  "Manual Set Location": "Manuel Konum Ayarla",
   "Not deployed": "Dağıtılmamış",
   "Plugins not sorted because: {{msg}}": "Eklentiler sıralanmadı çünkü: {{msg}}",
   "Requires cleaning (LOOT)": "Temizlik gerekiyor (LOOT)",
@@ -21,6 +25,5 @@
   "{{count}} deleted navmesh": "{{count}} silinmiş navmesh",
   "{{count}} deleted navmesh_plural": "{{ count }} silinmiş navmesh",
   "{{count}} deleted reference": "{{count}} silinmiş referans",
-  "{{count}} deleted reference_plural": "{{ count }} silinmiş referans",
-  "Manual Set Location": "Manuel Konum Ayarla"
+  "{{count}} deleted reference_plural": "{{ count }} silinmiş referans"
 }
