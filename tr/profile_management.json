@@ -4,9 +4,9 @@
   "Stop Managing": "Yönetmeyi Durdur",
   "Drag to another profile to transfer settings.": "Ayarları aktarmak için başka bir profile sürükleyin.",
   "Game Settings": "Oyun Ayarları",
-  "Save Games": "Kayıtlı Oyunlar",
-  "This profile has its own game settings": "Bu profilin kendi oyun ayarları var",
-  "This profile has its own save games": "Bu profilin kendi kayıtlı oyunları var",
+  "Save Games": "Oyun Kayıtları",
+  "This profile has its own game settings": "Bu profilin kendine ait oyun ayarları var",
+  "This profile has its own save games": "Bu profilin kendine ait oyun kayıtları var",
   "Manual Set Location": "Manuel Konum Ayarla",
   "Stop Manage": "Yönetmeyi Durdur"
 }
