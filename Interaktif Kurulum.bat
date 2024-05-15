@@ -1,10 +1,12 @@
 @echo off
 color 08
 mode con cols=80 lines=25
-title Vortex Turkce Yama Kurulum Scripti
+title Vortex Turkce Yama Kurulum Scripti                                                                                                                                   
 echo Vortex Turkce Yama Kurulum Scripti
 echo.
 echo Script Yazari: Ilker BINZET
+echo.
+echo https://www.nexusmods.com/site/mods/811
 echo.
 echo ==============================
 echo.
@@ -41,7 +43,7 @@ echo Komut basariyla calistirildi!
 echo.
 echo Kurulum tamamlandiktan sonra, Vortex'i acin ve SETTINGS-INTERFACE-LANGUAGE bolumunden Turkceyi secin.
 echo.
-echo Scriptinizde bir sorun varsa veya ceviriyle ilgili daha iyi bir oneriniz varsa, github projesi ilker-binzet/Vortex-Mod-Manager-Turkish-Localization uzerinden issues ya da pr gonderebilirsiniz, tesekkurler!
+echo Scriptinizde bir sorun varsa veya ceviriyle ilgili daha iyi bir oneriniz varsa, github projesi ilker-binzet/Vortex-Mod-Manager-Turkish-Localization uzerinden, issues ya da pr gonderebilirsiniz, tesekkurler!
 echo.
 echo Scriptten cikmak icin herhangi bir tusa basin...
 pause >nul
@@ -54,7 +56,7 @@ pause >nul
 :D
 cls
 set name=Administrator
-set /p name=Bilgisayar kullanicinizi girin (varsayilan: Administrator):
+set /p name=Bilgisayar kullanicinizi girin - Buyuk ve kucuk harf duyarlidir. (varsayilan: Administrator):
 set drive=C
 echo.
 set /p drive=Sistem diskinizi girin (harf olarak. Varsayilan: C):
@@ -81,7 +83,7 @@ echo ==============================
 echo.
 echo Komut calistirilirken bir hata olustu! Lutfen yukaridaki bilgileri kontrol edin.
 echo.
-echo Sorun cozulemezse lutfen manuel kurulum yapmayi deneyin, manuel kurulum talimatlari hem sikistirilmis dosyada hem de web sitesinde mevcuttur!
+echo Sorun cozulemezse lutfen manuel kurulum yapmayi deneyin, manuel kurulum talimatlari hem sikistirilmis dosyada hem de nexus mod web sitesinde mevcuttur!
 echo.
 echo Sorun devam ederse, github projesi ilker-binzet/Vortex-Mod-Manager-Turkish-Localization uzerinden issues ile bana ulasabilirsiniz, cok tesekkur ederim!
 echo.
