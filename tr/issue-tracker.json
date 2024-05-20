@@ -7,11 +7,11 @@
   "Milestone: {{title}} ({{state}})": "Kilometre Taşı: {{title}} ({{state}})",
   "More": "Daha fazla",
   "No reported issues": "Rapor edilen sorun yok",
-  "Open Issue Responder": "Sorun Yanıtlayıcıyi aç",
   "Open": "Aç",
+  "Open Issue Responder": "Sorun Yanıtlayıcıyi aç",
   "Refresh Issues": "Sorunları Yenile",
-  "The Vortex developers require your assistance with a bug/suggestion which you have submitted. To view our response please click on any of the below links: <br /><br />{{ urlString }}": "Vortex geliştiricileri, gönderdiğiniz bir hata/öneri konusunda yardımınıza ihtiyaç duyuyor. Yanıtımızı görmek için lütfen aşağıdaki bağlantılardan birine tıklayın: <br /><br />{{ urlString }}",
   "Sent too many github API requests - try again later": "Çok fazla github API isteği gönderildi - daha sonra tekrar deneyin",
+  "The Vortex developers require your assistance with a bug/suggestion which you have submitted. To view our response please click on any of the below links: <br /><br />{{ urlString }}": "Vortex geliştiricileri, gönderdiğiniz bir hata/öneri konusunda yardımınıza ihtiyaç duyuyor. Yanıtımızı görmek için lütfen aşağıdaki bağlantılardan birine tıklayın: <br /><br />{{ urlString }}",
   "You've received feedback response": "Geri bildirim yanıtı aldınız",
   "Your issues": "Sorunlarınız",
   "{{ count }} comments": "{{ count }} yorum"
