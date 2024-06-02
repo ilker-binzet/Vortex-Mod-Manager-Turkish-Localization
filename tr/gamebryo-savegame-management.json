@@ -1,5 +1,8 @@
 {
   "Save Games": "Oyun Kayıtları",
   "Open Save Games": "Oyun Kayıtlarını Aç",
-  "Transfer Save Games": "Oyun Kayıtlarını Aktar"
+  "Transfer Save Games": "Oyun Kayıtlarını Aktar",
+  "Instructions:": "Kurulum Talimatları:",
+  "Instructions: Select a row to see more information and use the radio buttons to select the save to launch the game. If you don't want to launch with a save, choose the 'No Save' option at the top.": "Talimatlar: Daha fazla bilgi görmek ve oyunu başlatmak için bir satır seçin ve oyunu başlatmak için seçim düğmelerini kullanın. Bir kayıtla başlatmak istemiyorsanız, en üstteki 'Kayıt Yok' seçeneğini seçin.",
+  "Currently selected save:": "Şu anda seçili kayıt:"
 }
