@@ -37,6 +37,6 @@
   "The mod that is currently selected in the list.": "Şu anda listede seçili olan mod.",
   "The mod type controls where (and maybe even how) a mod gets deployed. Leave empty (default) unless you know what you're doİng.": " Mod türü, bir modun nereye (ve belki de nasıl) dağıtılacağını kontrol eder. Ne yaptığınızı bilmiyorsanız boş bırakın (varsayılan).",
   "The mods that are currently selected in the list.": "Şu anda listede seçili olan modlar.",
-  "The name of the mod.": "Modun adı.",
-  "The version of the mod.": "Modun sürümü."
+  "The name of the mod.": "Mod adı.",
+  "The version of the mod.": "Mod sürümü."
 }
