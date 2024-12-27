@@ -29,5 +29,9 @@
   "The mod type controls where (and maybe even how) a mod gets deployed. Leave empty (default) unless you know what you're doİng.": " Mod türü, bir modun nereye (ve belki de nasıl) dağıtılacağını kontrol eder. Ne yaptığınızı bilmiyorsanız boş bırakın (varsayılan).",
   "Unresolved": "Çözülemeyen",
   "{{ count }} conflicting file": "{{ count }} çakışan dosya",
-  "{{ count }} conflicting file_plural": "{{ count }} çakışan dosya"
+  "{{ count }} conflicting file_plural": "{{ count }} çakışan dosya",
+  "Lua Mods": "Lua Modları",
+  "No Lua Mods Installed": "Herhangian Lua Modu Yüklü Değil",
+  "Open Load Order Page": "Yükleme Sırası Sayfasını Aç",
+  "Purge Mods": "Modları Temizle"
 }

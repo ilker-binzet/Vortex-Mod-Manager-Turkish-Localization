@@ -38,5 +38,9 @@
   "The mod type controls where (and maybe even how) a mod gets deployed. Leave empty (default) unless you know what you're doİng.": " Mod türü, bir modun nereye (ve belki de nasıl) dağıtılacağını kontrol eder. Ne yaptığınızı bilmiyorsanız boş bırakın (varsayılan).",
   "The mods that are currently selected in the list.": "Şu anda listede seçili olan modlar.",
   "The name of the mod.": "Mod adı.",
-  "The version of the mod.": "Mod sürümü."
+  "The version of the mod.": "Mod sürümü.",
+  "Lua Mods": "Lua Modları",
+  "No Lua Mods Installed": "Herhangian Lua Modu Yüklü Değil",
+  "Open Load Order Page": "Yükleme Sırası Sayfasını Aç",
+  "Purge Mods": "Modları Temizle"
 }
