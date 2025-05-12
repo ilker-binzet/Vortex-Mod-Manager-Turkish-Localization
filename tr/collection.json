@@ -182,5 +182,9 @@
   "You have to be logged in with Nexus Mods to install collections.": "Koleksiyonları yüklemek için Nexus Mods ile giriş yapmalısınız.",
   "assigned to group": "gruba atanmış",
   "collection-own-page": "Kendi koleksiyonlarınızı oluşturun ve bunları Nexus Mods topluluğuyla paylaşın. Yüklediğiniz tüm koleksiyonları <1>burada</1> görebilirsiniz.",
-  "{{rating}}%": "{{rating}}%"
+  "{{rating}}%": "{{rating}}%",
+  "Requirements & Load Order": "Gereksinimler & Yükleme Sırası",
+  "Mod Options": "Mod Seçenekleri",
+  "Upload Update": "Güncellemeyi Karşıya Yükle",
+  "Quick Collection": "Hızlı Koleksiyon"
 }

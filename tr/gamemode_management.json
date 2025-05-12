@@ -24,5 +24,13 @@
   "Sort by {0} ({1})": "Sırala {0} ({1})",
   "Sort by {0} ({1}) ({2})": "Sırala {0} ({1}) ({2})",
   "Stop Manage": "Yönetmeyi Durdur",
-  "Stop Managing": "Yönetmeyi Durdur"
+  "Stop Managing": "Yönetimi Durdur",
+  "Drag and Drop the plugins to reorder how the game loads them. Please note, this screen will show all plugins available in the plugins directory, regardless of whether they were installed by Vortex or not.": "Oyunun eklentileri yükleme sırasını değiştirmek için sürükleyip bırakın. Lütfen unutmayın, bu ekran Vortex tarafından yüklenip yüklenmediğine bakılmaksızın eklenti dizininde bulunan tüm eklentileri gösterecektir.",
+  "Reset Plugins File": "Eklenti Dosyasını Sıfırla",
+  "Additional Information:": "Ek Bilgiler:",
+  "Vortex will create the \"plugins.txt\" file (if missing) upon installation of new plugins.": "Vortex, yeni eklentilerin kurulumu sırasında \"plugins.txt\" dosyasını (eksikse) oluşturacaktır.",
+  "If installing a collection - wait for it to complete before re-visiting this page.": "Bir koleksiyon kuruyorsanız - bu sayfayı tekrar ziyaret etmeden önce tamamlanmasını bekleyin.",
+  "Press the \"Reset Plugins File\" button if your \"plugins.txt\" file is in a corrupted state. Vortex will regenerate the file": "\"plugins.txt\" dosyanız bozuk durumdaysa \"Eklenti Dosyasını Sıfırla\" düğmesine basın. Vortex dosyayı yeniden oluşturacaktır",
+  "Press the \"Refresh List\" button to refresh/sync changes.": "Değişiklikleri yenilemek/senkronize etmek için \"Listeyi Yenile\" düğmesine basın.",
+  "Additional Information": "Ek Bilgiler"
 }

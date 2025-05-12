@@ -1,10 +1,4 @@
 {
-  "Save Games": "Oyun Kayıtları",
-  "Open Save Games": "Oyun Kayıtlarını Aç",
-  "Transfer Save Games": "Oyun Kayıtlarını Aktar",
-  "Instructions:": "Kurulum Talimatları:",
-  "Instructions: Select a row to see more information and use the radio buttons to select the save to launch the game. If you don't want to launch with a save, choose the 'No Save' option at the top.": "Talimatlar: Daha fazla bilgi görmek ve oyunu başlatmak için bir satır seçin ve oyunu başlatmak için seçim düğmelerini kullanın. Bir kayıtla başlatmak istemiyorsanız, en üstteki 'Kayıt Yok' seçeneğini seçin.",
-  "Currently selected save:": "Şu anda seçili kayıt:",
   "Drag and Drop the plugins to reorder how the game loads them. Please note, this screen will show all plugins available in the plugins directory, regardless of whether they were installed by Vortex or not.": "Oyunun eklentileri yükleme sırasını değiştirmek için sürükleyip bırakın. Lütfen unutmayın, bu ekran Vortex tarafından yüklenip yüklenmediğine bakılmaksızın eklenti dizininde bulunan tüm eklentileri gösterecektir.",
   "Reset Plugins File": "Eklenti Dosyasını Sıfırla",
   "Refresh List": "Listeyi Yenile",
@@ -13,5 +7,8 @@
   "If installing a collection - wait for it to complete before re-visiting this page.": "Bir koleksiyon kuruyorsanız - bu sayfayı tekrar ziyaret etmeden önce tamamlanmasını bekleyin.",
   "Press the \"Reset Plugins File\" button if your \"plugins.txt\" file is in a corrupted state. Vortex will regenerate the file": "\"plugins.txt\" dosyanız bozuk durumdaysa \"Eklenti Dosyasını Sıfırla\" düğmesine basın. Vortex dosyayı yeniden oluşturacaktır",
   "Press the \"Refresh List\" button to refresh/sync changes.": "Değişiklikleri yenilemek/senkronize etmek için \"Listeyi Yenile\" düğmesine basın.",
-  "Additional Information": "Ek Bilgiler"
+  "Additional Information": "Ek Bilgiler",
+  "Sort by Deploy Order": "Dağıtım Sırasına Göre Sırala",
+  "View Plugins File": "Eklenti Dosyasını Görüntüle",
+  "New Plugin File": "Yeni Eklenti Dosyası"
 }

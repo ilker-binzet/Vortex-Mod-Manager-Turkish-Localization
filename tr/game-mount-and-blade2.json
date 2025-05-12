@@ -66,5 +66,14 @@
   "missing modules": "eksik modüller",
   "version mismatches": "sürüm uyumsuzlukları",
   "Otherwise to properly run the game with the selected mods from Vortex, either run without a primary tool set or use 'Bannerlord Software Extended'when BLSE is installed or use 'Official Bannerlord' when BLSE is not installed.": "Vortex'ten seçilen modlarla oyunu düzgün çalıştırmak için, ya birincil araç seti olmadan çalıştırın ya da BLSE yüklüyken 'Bannerlord Software Extended'i kullanın. BLSE yüklü değilse, 'Official Bannerlord Launcher'ı kullanın.",
-  "Instructions: Select a row to see more information and use the radio buttons to select the save to launch the game. If you don't want to launch with a save, choose the 'No Save' option atthe top.": "Instructions: Select a row to see more information and use the radio buttons to select the save to launch the game. If you don't want to launch with a save, choose the 'No Save' option atthe top."
+  "Instructions: Select a row to see more information and use the radio buttons to select the save to launch the game. If you don't want to launch with a save, choose the 'No Save' option atthe top.": "Talimatlar: Daha fazla bilgi görmek ve oyunu açmak için bir satır seçin ve seçim düğmelerini kullanın. Bir kayıtla açmak istemiyorsanız, en üstteki 'Kayıt Yok' seçeneğini seçin.",
+  "You have no Mod Configuration Menu options available": "Kullanılabilir Mod Yapılandırma Menüsü (MCM) seçeneğiniz yok",
+  "This collection will not have any Mod Configuration Menu options available.": "Bu koleksiyon Mod Yapılandırma Menüsü (MCM) seçeneğini kullanamayacak.",
+  "Enabled modules in the Load Order which are not part of the Collection will be marked as optional in theCollection load order and will not be mandatory for the user to have.\n            Official modules will be optional too, but the mods in your collection will require them to be installed, which means that it's not possible for a user to install a collection without the official modules.": "Yükleme sırasında koleksiyonun dışında etkin modlar, koleksiyon yükleme sırasında isteğe bağlı olarak işaretlenecek ve kullanıcı tarafından gerekli olmayacak.\n            Resmi modlar da isteğe bağlı olacak, ancak koleksiyonunuzdaki modlar bunları yüklemek zorunda kalacak, bu nedenle kullanıcı koleksiyonu yüklemek için resmi modları yüklemek zorunda kalacak.",
+  "Requirements": "Gereksinimler",
+  "Require BLSE to be installed": "BLSE yüklü olmalı",
+  "Mod Configuration Options": "Mod Yapılandırma Seçenekleri",
+  "This is a snapshot of the settings that can be included within the collection.": "Bu, koleksiyon içine dahil edilebilecek ayarların bir anlık görüntüsüdür.",
+  "Special Options": "Özel Seçenekler",
+  "Global Options": "Genel Seçenekler"
 }
