@@ -29,6 +29,6 @@
   "Sort by {0} ({1})": "Sırala {0} ({1})",
   "Sort by {0} ({1}) ({2})": "Sırala {0} ({1}) ({2})",
   "View optional mods": "Opsiyonel modları görüntüle",
-  "You now have the whole collection installed, you can start editing your collection by cloning it.": "Artık tüm koleksiyonu kurmuş oldunuz, koleksiyonunuzu klonlayarak düzenlemeye başlayabilirsiniz.",
+  "You now have the whole collection installed, you can start editing your collection by cloning it.": "Artık tüm koleksiyonu kurmuş oldunuz, \nkoleksiyonunuzu klonlayarak düzenlemeye başlayabilirsiniz.",
   "{{numOptionals}} optional mods available": "{{numOptionals}} opsiyonel mod mevcut"
 }
