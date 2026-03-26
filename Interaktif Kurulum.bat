@@ -1,119 +1,172 @@
 @echo off
-color 08
-mode con cols=80 lines=25
-title Vortex Turkce Yama Kurulum Scripti                                                                                                                                   
-echo Vortex Turkce Yama Kurulum Scripti
+chcp 65001 >nul
+setlocal enabledelayedexpansion
+
+:: Script Versiyonu ve Tarih
+set "VERSION=2.1.0"
+set "SCRIPT_DATE=2026-03-26"
+
+:: Konsol ayarları
+color 0B
+mode con cols=100 lines=30
+title Vortex Türkçe Yama Kurulum Scripti v%VERSION%
+
+:: Banner
+echo ╔════════════════════════════════════════════════════════════════════════════════╗
+echo ║                    Vortex Türkçe Yama Kurulum Scripti v%VERSION%               ║
+echo ╠════════════════════════════════════════════════════════════════════════════════╣
+echo ║ Script Yazarı: Ilker Binzet                                                    ║
+echo ║ https://www.nexusmods.com/site/mods/811                                        ║
+echo ╚════════════════════════════════════════════════════════════════════════════════╝
 echo.
-echo Script Yazari: Ilker BINZET
-echo.
-echo https://www.nexusmods.com/site/mods/811
-echo.
-echo ==============================
-echo.
-if exist tr (
-goto B
-) else (
-goto HATA2
+
+:: Gerekli dizin kontrolü
+if not exist tr (
+    color 0C
+    echo [HATA] "tr" çeviri klasörü bulunamadı!
+    echo.
+    echo Lütfen "tr" çeviri klasörünü ve bu scripti aynı dizine koyun.
+    echo.
+    echo Çıkmak için herhangi bir tuşa basın...
+    pause >nul
+    exit /b 1
 )
-:B
-if "%APPDATA%" == "" (
-        goto HATA
-    )
-set vortexpath=%APPDATA%\Vortex
-:F
-tasklist | find /i "vortex.exe" >nul
-if "%errorlevel%"=="1" (goto A) else (goto G)
-:A
-echo Turkce yama kurulumuna baslamak icin herhangi bir tusa basin...
-pause >nul
-cls
-md "%vortexpath%\locales\tr" >nul 2>nul
-copy /y tr %vortexpath%\locales\tr
-timeout /nobreak /t 1 >nul
-if %errorlevel% geq 1 (
-goto HATA3
-) else (
-goto E
+
+:: Vortex yolu kontrolü
+if "%APPDATA%"=="" (
+    goto MANUEL_KURULUM
 )
-:E
-echo.
-echo ==============================
-echo.
-echo Komut basariyla calistirildi!
-echo.
-echo Kurulum tamamlandiktan sonra, Vortex'i acin ve SETTINGS-INTERFACE-LANGUAGE bolumunden Turkceyi secin.
-echo.
-echo Scriptinizde bir sorun varsa veya ceviriyle ilgili daha iyi bir oneriniz varsa, github projesi ilker-binzet/Vortex-Mod-Manager-Turkish-Localization uzerinden, issues ya da pr gonderebilirsiniz, tesekkurler!
-echo.
-echo Scriptten cikmak icin herhangi bir tusa basin...
-pause >nul
-exit
-:HATA
-echo Otomatik dizin alma basarisiz oldu, bazi parametreleri manuel girmeniz gerekecek. Her parametre icin varsayilan degerler belirlenmistir, varsayilani kullanmak icin bos birakin.
-echo.
-echo Devam etmek icin anladim ve devam et tusuna basin...
-pause >nul
-:D
-cls
-set name=Administrator
-set /p name=Bilgisayar kullanicinizi girin - Buyuk ve kucuk harf duyarlidir. (varsayilan: Administrator):
-set drive=C
-echo.
-set /p drive=Sistem diskinizi girin (harf olarak. Varsayilan: C):
-set vortexpath=%drive%:\Users\%name%\AppData\Roaming\vortex
-echo.
-if exist %vortexpath% (
-echo Ayarlar tamamlandi!
-echo.
-goto A
-) else (
-echo Parametre hatasi, dizin bulunamadi! Parametreleri tekrar girmek icin herhangi bir tusa basin. Eger basarisiz olursa lutfen manuel kurulum yapin.
-pause >nul
-goto D
+
+set "vortexpath=%APPDATA%\Vortex"
+
+if not exist "%vortexpath%" (
+    color 0E
+    echo [UYARI] '%vortexpath%' dizini bulunamadı!
+    echo Lütfen yamayı kurmadan önce Vortex'i en az bir kez çalıştırdığınızdan emin olun.
+    echo.
+    echo Yine de manuel kuruluma geçmek için bir tuşa basın veya pencereyi kapatın.
+    pause >nul
+    goto MANUEL_KURULUM
 )
-:HATA2
-echo Lutfen "tr" ceviri klasorunu ve bu scripti ayni dizine koydugunuzda tekrar deneyin!
+
+:: Vortex process kontrolü
+tasklist /FI "IMAGENAME eq vortex.exe" 2>NUL | find /I /N "vortex.exe">NUL
+if "%ERRORLEVEL%"=="0" (
+    color 0E
+    echo [UYARI] Vortex çalışıyor. Kuruluma devam etmek için kapatılması gerekiyor.
+    echo.
+    echo Devam etmek için herhangi bir tuşa basın...
+    pause >nul
+    taskkill /IM "vortex.exe" /F >nul 2>&1
+)
+
+:: Kurulum işlemi
+echo [BİLGİ] Kurulum başlatılıyor...
 echo.
-echo Scriptten cikmak icin herhangi bir tusa basin...
-pause >nul
-exit
-:HATA3
+
+:: İlerleme çubuğu
+set "progress="
+for /L %%i in (1,1,20) do (
+    set "progress=!progress!█"
+    cls
+    echo ╔════════════════════════════════════════════════════════════════════════════════╗
+    echo ║                    Vortex Türkçe Yama Kurulum Scripti v%VERSION%               ║
+    echo ╚════════════════════════════════════════════════════════════════════════════════╝
+    echo.
+    echo Kurulum ilerlemesi:
+    echo [!progress!%====================%]
+    ping localhost -n 1 >nul
+)
+
+md "%vortexpath%\locales\tr" >nul 2>&1
+robocopy "tr" "%vortexpath%\locales\tr" /E /IS /IT >nul 2>&1
+
+if !ERRORLEVEL! geq 8 (
+    color 0C
+    echo [HATA] Kurulum sırasında bir hata oluştu!
+    echo.
+    echo Hata detayları:
+    echo - Hedef dizine yazma izni kontrol edin
+    echo - Disk alanı yeterliliğini kontrol edin
+    echo - Anti-virüs yazılımının engellemediğinden emin olun
+    echo.
+    echo Manuel kurulum için talimatlar:
+    echo 1. %vortexpath%\locales\ dizinine gidin
+    echo 2. "tr" klasörünü manuel olarak kopyalayın
+    echo.
+    pause
+    color
+    exit /b 1
+) else (
+    color 0A
+    echo.
+    echo ╔════════════════════════════════════════════════════════════════════════════════╗
+    echo ║                           Kurulum Başarıyla Tamamlandı!                        ║
+    echo ╠════════════════════════════════════════════════════════════════════════════════╣
+    echo ║ Yapılacaklar:                                                                  ║
+    echo ║ 1. Vortex'i açın                                                               ║
+    echo ║ 2. SETTINGS → INTERFACE → LANGUAGE bölümünden Türkçe'yi seçin                  ║
+    echo ╚════════════════════════════════════════════════════════════════════════════════╝
+    echo.
+    echo GitHub: https://github.com/ilker-binzet/Vortex-Mod-Manager-Turkish-Localization
+    echo.
+    pause
+    color
+    exit /b 0
+)
+
+:MANUEL_KURULUM
+color 0E
+echo [UYARI] Otomatik kurulum başarısız oldu. Manuel kurulum başlatılıyor...
 echo.
-echo ==============================
+set /p "username=Bilgisayar kullanıcı adınızı girin: "
+set /p "drive=Sistem diskinizi girin (örn: C): "
+
+set "vortexpath=%drive%:\Users\%username%\AppData\Roaming\Vortex"
+
+if exist "%vortexpath%" (
+    goto KURULUM
+) else (
+    color 0C
+    echo [HATA] Belirtilen dizin bulunamadı: %vortexpath%
+    echo.
+    echo Tekrar denemek için herhangi bir tuşa basın...
+    pause >nul
+    goto MANUEL_KURULUM
+)
+
+:KURULUM
+echo [BİLGİ] Manuel kurulum başlatılıyor...
 echo.
-echo Komut calistirilirken bir hata olustu! Lutfen yukaridaki bilgileri kontrol edin.
-echo.
-echo Sorun cozulemezse lutfen manuel kurulum yapmayi deneyin, manuel kurulum talimatlari hem sikistirilmis dosyada hem de nexus mod web sitesinde mevcuttur!
-echo.
-echo Sorun devam ederse, github projesi ilker-binzet/Vortex-Mod-Manager-Turkish-Localization uzerinden issues ile bana ulasabilirsiniz, cok tesekkur ederim!
-echo.
-echo Scriptten cikmak icin herhangi bir tusa basin...
-pause >nul
-exit
-:G
-if "%off%" == "1" (
-        goto HATA4
-    )
-echo Vortex calisiyor, tespit edildi...
-echo Script, Vortex'i otomatik olarak kapatacak
-echo Devam etmek icin herhangi bir tusa basin
-pause >nul
-cls
-echo Kapatiliyor...
-taskkill /f /im vortex.exe >nul
-set off=1
-timeout /nobreak /t 3 >nul
-cls
-echo Vortex Turkce Yama Kurulum Scripti
-echo.
-echo Script Yazari: Ilker BINZET
-echo.
-echo ==============================
-echo.
-goto F
-:HATA4
-echo Vortex kapatilamadi, lutfen manuel olarak kapatip bu scripti tekrar calistirin!
-echo.
-echo Scriptten cikmak icin herhangi bir tusa basin...
-pause >nul
-exit
+md "%vortexpath%\locales\tr" >nul 2>&1
+robocopy "tr" "%vortexpath%\locales\tr" /E /IS /IT >nul 2>&1
+
+if !ERRORLEVEL! geq 8 (
+    color 0C
+    echo [HATA] Manuel kurulum sırasında bir hata oluştu!
+    echo.
+    echo Hata detayları:
+    echo - Hedef dizine yazma izni kontrol edin
+    echo - Disk alanı yeterliliğini kontrol edin
+    echo - Anti-virüs yazılımının engellemediğinden emin olun
+    echo.
+    pause
+    color
+    exit /b 1
+) else (
+    color 0A
+    echo.
+    echo ╔════════════════════════════════════════════════════════════════════════════════╗
+    echo ║                           Kurulum Başarıyla Tamamlandı!                        ║
+    echo ╠════════════════════════════════════════════════════════════════════════════════╣
+    echo ║ Yapılacaklar:                                                                  ║
+    echo ║ 1. Vortex'i açın                                                               ║
+    echo ║ 2. SETTINGS → INTERFACE → LANGUAGE bölümünden Türkçe'yi seçin                  ║
+    echo ╚════════════════════════════════════════════════════════════════════════════════╝
+    echo.
+    echo GitHub: https://github.com/ilker-binzet/Vortex-Mod-Manager-Turkish-Localization
+    echo.
+    pause
+    color
+    exit /b 0
+)
