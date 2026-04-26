@@ -206,5 +206,7 @@
   "Show in Mods": "Modlarda Göster",
   "Did this collection work successfully?": "Bu koleksiyon başarıyla çalıştı mı?",
   "Collection didn't work (in a significant way)": "Koleksiyon çalışmadı (önemli bir şekilde)",
-  "Install pending": "Yükleme Beklemede"
+  "Install pending": "Yükleme Beklemede",
+  "Downloading...": "İndiriliyor...",
+  "Installing...": "Yükleniyor..."
 }

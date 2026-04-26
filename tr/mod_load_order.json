@@ -19,5 +19,7 @@
   "Sort Descending": "Sıralama Azalan",
   "Sort by {0}": "Sırala {0}",
   "Sort by {0} ({1})": "Sırala {0} ({1})",
-  "Sort by {0} ({1}) ({2})": "Sırala {0} ({1}) ({2})"
+  "Sort by {0} ({1}) ({2})": "Sırala {0} ({1}) ({2})",
+  "Load order": "Yükleme Sırası",
+  "Load order description": "Bu araç, modlarınızın yükleme sırasını düzenlemenize olanak tanır. Modların birbirleriyle nasıl etkileşime girdiğini kontrol etmek için önemlidir. Modların doğru sırada yüklenmesi, oyun içi hataları ve uyumsuzlukları önlemeye yardımcı olabilir."
 }
